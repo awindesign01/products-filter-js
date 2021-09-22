@@ -1,0 +1,67 @@
+html,body {
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+    background: #f9f9f9;
+}
+button{
+    border: none;
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: 7px;
+    font-size: 0.82em;
+    font-weight: 700;
+    color: #374151;
+    cursor: pointer;
+    border: 2px solid #6B7280;
+}
+.header{
+    background: #e0f6ff;
+}
+.header article{
+    margin: 0 auto;
+    width: 40%;
+    height: 10rem;
+    text-align: center;
+    /* border-bottom: 1px solid #374151; */
+}
+.nav_input{
+    margin: 15px 0;
+}
+.nav_input input[type="text"]{
+    padding: 0 5px;
+    width: 17rem;
+    height: 1.7rem;
+    border: 2px solid #6B7280;
+    border-radius: 7px;
+}
+.nav_input input[type="text"]:hover{
+    border: 2px solid #EC4899;
+    border-radius: 7px;
+}
+.nav_buttons{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items; center;
+}
+.image{
+    width: 50%;
+}
+.art_products{
+    margin: 20px 0;
+    width: 15rem;
+    height: 15rem;
+    background: #fff;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items; center;
+}
+.Products_center{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+     
+}
