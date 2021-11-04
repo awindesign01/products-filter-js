@@ -9,7 +9,7 @@ const Products_center = document.querySelector(".Products_center");
 
 document.addEventListener("DOMContentLoaded", () => {
 	axios
-		.get("http://localhost:3000/items")
+		.get("https://fakestoreapi.com/products")
 		.then((res) => {
 			allProductsData = res.data;
 			renderProducts(res.data, filters);
